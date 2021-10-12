@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(161, 180, 169);
+  align-items: center;
+}
+.drum-kit {
+  width: 600px;
+  height: 520px;
+  position: relative;
+}
+.key {
+  display: inline block;
+  position: absolute;
+  background: #eaeaea;
+  font-size: 1em;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  border-radius: 4px;
+  border: 3px solid #aaa;
+  color: #444;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
+  z-index: 2;
+}
+.top-1 {
+  position: absolute;
+  top: 120px;
+  left: 79px;
+}
+.top-2 {
+  position: absolute;
+  top: 167px;
+  left: 401px;
+}
+.E {
+  top: 110px;
+  left: 100px;
+}
+.R {
+  top: 110px;
+  left: 160px;
+}
+.I {
+  top: 160px;
+  left: 420px;
+}
+.K {
+  top: 160px;
+  left: 470px;
+}
+.F {
+  top: 335px;
+  left: 130px;
+}
+.G {
+  top: 230px;
+  left: 226px;
+}
+.H {
+  top: 237px;
+  left: 336px;
+}
+.J {
+  top: 280px;
+  left: 422px;
+}
+.V {
+  top: 345px;
+  left: 260px;
+}
+.B {
+  top: 345px;
+  left: 320px;
+}
